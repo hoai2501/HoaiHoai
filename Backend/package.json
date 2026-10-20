@@ -1,0 +1,14 @@
+{
+  "name": "tuition-payment-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fee": "node src/fee/server.js",
+    "bank": "node src/bank/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

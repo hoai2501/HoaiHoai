@@ -1,0 +1,58 @@
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  background: #f5f5f5;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.accordion-header:hover {
+  background: #eaeaea;
+}
+
+.accordion-panel {
+  padding: 16px;
+  border-top: 1px solid #ddd;
+  background: white;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.pagination .active {
+  font-weight: bold;
+}
